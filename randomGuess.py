@@ -8,4 +8,4 @@ while (rand!= guess):
         print("guess a lower number")
     guess = int(input("guess again"))
 if (rand == guess):
-    print    dasjkh
+    print ("you got the number, Nice job!")
