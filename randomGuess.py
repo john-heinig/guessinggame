@@ -1,2 +1,11 @@
 import random
-answer = randInt(0,10)
+rand = random.randrange(0,10)
+guess = int(input("what is your guess"))
+while (rand!= guess):
+    if(rand > guess):
+        print ("guess a higher number")
+    else:
+        print("guess a lower number")
+    guess = int(input("guess again"))
+if (rand == guess):
+    print    
