@@ -8,5 +8,7 @@ while (rand!= guess):
     else:
         print("guess a lower number")
     guess = int(input("guess again"))
+    numguesses = numguesses + 1
 if (rand == guess):
     print ("you got the number, Nice job!")
+    print ("you did it in" + numguesses "turns!")
